@@ -13,7 +13,7 @@ NovaSpeak is an AI-powered voice assistant built using **Streamlit, SpeechRecogn
 
 ## 📸 Live Demo  
 
-![NovaSpeak Live Screenshot](./NovaSpeak.png)  
+![NovaSpeak Live Screenshot](./NovaSpeak.jpeg)  
 
 ---
 

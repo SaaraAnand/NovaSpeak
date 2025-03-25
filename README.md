@@ -1,88 +1,59 @@
-\documentclass{article}
-\usepackage{hyperref}
-\usepackage{graphicx}
+# 🎤 NovaSpeak: Your Personal AI Voice Assistant  
 
-\title{\textbf{🎤 NovaSpeak: Your Personal AI Voice Assistant}}
-\author{Developed by: Saara and Neelmani}
-\date{}
+NovaSpeak is an AI-powered voice assistant built using **Streamlit, SpeechRecognition, pyttsx3, and LangChain's Ollama model (Mistral)**. It enables real-time voice interaction with AI, allowing users to speak, receive intelligent responses, and listen to them via text-to-speech.  
 
-\begin{document}
+## 🚀 Features  
+- 🎙 **Voice Recognition**: Speak to NovaSpeak using a microphone.  
+- 🤖 **AI-Powered Responses**: Uses **Mistral LLM** for intelligent conversation.  
+- 🔊 **Text-to-Speech (TTS)**: AI-generated responses are spoken aloud.  
+- 📜 **Chat History**: View previous interactions for context-aware conversations.  
+- 🎨 **Custom UI**: Styled with **custom Streamlit CSS** for a visually appealing interface.  
 
-\maketitle
+---
 
-\section{Introduction}
-NovaSpeak is an AI-powered voice assistant built using \textbf{Streamlit, SpeechRecognition, Pyttsx3, and LangChain}. It leverages the \textbf{Mistral} language model via Ollama to facilitate human-like conversations, transcribing speech to text and responding in real time. The application features a sleek user interface with custom styling and provides interactive AI-powered responses.
+## 📸 Live Demo  
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{live_model.png} % Replace with actual image filename
-    \caption{Live Demo of NovaSpeak AI Assistant}
-\end{figure}
+![NovaSpeak Live Screenshot](./NovaSpeak.png)  
 
-\section{Features}
-\begin{itemize}
-    \item 🎙 Speech-to-text recognition using Google Speech API.
-    \item 🤖 AI-driven responses powered by the \textbf{Mistral} LLM from Ollama.
-    \item 🔊 Text-to-speech conversion for AI responses.
-    \item 📜 Interactive chat history stored using LangChain.
-    \item 🎨 Custom styled UI using Streamlit markdown and CSS.
-\end{itemize}
+---
 
-\section{Installation}
-To set up and run NovaSpeak, follow these steps:
+## 🛠 Installation  
 
-\subsection{Prerequisites}
-Ensure you have \textbf{Python 3.8+} installed. Also, install \textbf{Ollama} from:  
-\url{https://ollama.ai/download}
-
-\subsection{Clone the Repository}
-\begin{verbatim}
-git clone https://github.com/your-repo/NovaSpeak.git
+### 1️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/NeelmaniRam/NovaSpeak.git
 cd NovaSpeak
-\end{verbatim}
+```
+### 2️⃣ Create a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+```
+### 3️⃣ Install Dependencies
+Ensure all required Python packages are installed. Run:
 
-\subsection{Install Dependencies}
-Install required Python libraries using:
-\begin{verbatim}
+```bash
 pip install -r requirements.txt
-\end{verbatim}
+```
+### 4️⃣ Run the Application
+Start the Streamlit app using:
 
-\subsection{Run the Application}
-To start the application, run:
-\begin{verbatim}
-streamlit run app.py
-\end{verbatim}
-This will launch the web UI in your browser.
+```bash
+streamlit run NovaSpeak.py
+```
 
-\section{Requirements.txt}
-\begin{verbatim}
-streamlit
-speechrecognition
-pyttsx3
-langchain
-langchain-community
-langchain-core
-ollama
-matplotlib
-seaborn
-\end{verbatim}
 
-\section{Usage}
-\begin{enumerate}
-    \item Click the \textbf{🎙 Start Listening} button.
-    \item Speak into your microphone.
-    \item The AI will transcribe your speech and generate a response.
-    \item The response will be displayed on the screen and spoken aloud.
-    \item View the full chat history at the bottom of the page.
-\end{enumerate}
+## 🎤 Usage Instructions
+- Click the **"🎙 Start Listening"** button.
+- Speak your query into the microphone.
+- **NovaSpeak** will process your query and generate an AI response.
+- The response is displayed on the screen and spoken out loud.
+- The **chat history** is updated for context-aware conversations.
 
-\section{Contributors}
-\begin{itemize}
-    \item \textbf{Saara}
-    \item \textbf{Neelmani Ramkripalu}
-\end{itemize}
+## 👥 Contributors
+Saara Anand
+Neelmani Ram Kripalu 
 
-\section{License}
-This project is open-source and available under the MIT License.
 
-\end{document}
+  

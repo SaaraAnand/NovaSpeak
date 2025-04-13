@@ -52,7 +52,7 @@ streamlit run NovaSpeak.py
 - The **chat history** is updated for context-aware conversations.
 
 ## 👥 Contributors
-Saara Anand
+Saara Anand, 
 Neelmani Ram Kripalu 
 
 

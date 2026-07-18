@@ -51,9 +51,7 @@ streamlit run NovaSpeak.py
 - The response is displayed on the screen and spoken out loud.
 - The **chat history** is updated for context-aware conversations.
 
-## 👥 Contributors
-Saara Anand, 
-Neelmani Ram Kripalu 
+
 
 
   
